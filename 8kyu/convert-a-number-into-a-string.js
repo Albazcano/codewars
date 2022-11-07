@@ -11,5 +11,5 @@ Examples (input --> output):
 -100 --> "-100" */
 
 function numberToString(num) {
-        return toString(num)
-      }
+        return num.toString()
+       }
