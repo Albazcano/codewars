@@ -8,10 +8,4 @@ Return true if the array contains the value, false if not.
 
 */
 
-function check(a, x) {
-    if (arr.find(element => element = 'x')){
-        return 'true';
-      } else{
-        return 'false';
-      }
-  }
+check = (a, x) => a.includes(x)
